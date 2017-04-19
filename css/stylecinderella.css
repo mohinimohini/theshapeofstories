@@ -1,0 +1,250 @@
+.cinderella-dot{
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+
+  border-radius: 20px;
+  background-color: black;
+   position:absolute;
+}
+
+
+
+
+#cd01{
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-top:29%;
+  position:absolute;
+  border-radius: 20px;
+  background-color: black;
+  -webkit-animation: cinderellaOne 3s 1;
+  animation: cinderellaOne 3s 1;
+  animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes cinderellaOne {
+    from {margin-left:5%;}
+    to {margin-left:15%;}
+}
+
+@keyframes cinderellaOne {
+    from {margin-left:5%;}
+    to {margin-left:15%;}
+
+}
+
+
+
+
+
+#cd02 {
+    margin-left: 15%;
+  margin-top:29%;
+  -webkit-animation: cdtwo-xAxis 5.5s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
+  animation: cdtwo-xAxis 5.5s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+
+#cd02::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: black;
+  -webkit-animation: cdtwo-yAxis 3.5s 1 cubic-bezier(.25,.1,.25,1);
+  animation: cdtwo-yAxis 3.5s 1 cubic-bezier(.25,.1,.25,1);
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes cdtwo-yAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    -webkit-transform: translateY(-400px);
+    transform: translateY(-400px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes cdtwo-yAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    -webkit-transform: translateY(-400px);
+    transform: translateY(-400px);
+    animation-fill-mode: forwards;
+  }
+}
+
+
+@-webkit-keyframes cdtwo-xAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    -webkit-transform: translateX(550px);
+    transform: translateX(550px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes cdtwo-xAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    -webkit-transform: translateX(550px);
+    transform: translateX(550px);
+    animation-fill-mode: forwards;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cd03 {
+    margin-left: 49.4%;
+      margin-top:4%;
+
+  -webkit-animation: cdthree-xAxis 3.5s 1;
+  animation: cdthree-xAxis 3.5s 1;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+
+#cd03::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: black;
+  -webkit-animation: cdthree-yAxis 3.5s 1;
+  animation: cdthree-yAxis 3.5s 1;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes cdthree-yAxis {
+  100% {
+    -webkit-transform: translateY(400px);
+    transform: translateY(400px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes cdthree-yAxis {
+  100% {
+    -webkit-transform: translateY(400px);
+    transform: translateY(400px);
+    animation-fill-mode: forwards;
+  }
+}
+
+
+@-webkit-keyframes cdthree-xAxis {
+  100% {
+    -webkit-transform: translateX(90px);
+    transform: translateX(90px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes cdthree-xAxis {
+  100% {
+    -webkit-transform: translateX(90px);
+    transform: translateX(90px);
+    animation-fill-mode: forwards;
+  }
+}
+
+
+
+
+
+
+
+
+
+#cd04 {
+    margin-left: 55%;
+      margin-top:29%;
+
+  -webkit-animation: cdfour-xAxis 3.5s 1;
+  animation: cdfour-xAxis 3.5s 1;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+
+
+#cd04::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: black;
+  -webkit-animation: cdfour-yAxis 3.5s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
+  animation: cdfour-yAxis 3.5s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes cdfour-yAxis {
+  100% {
+
+    -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    -webkit-transform: translateY(-600px);
+    transform: translateY(-600px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes cdfour-yAxis {
+  100% {
+
+    -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    -webkit-transform: translateY(-600px);
+    transform: translateY(-600px);
+    animation-fill-mode: forwards;
+  }
+}
+
+
+@-webkit-keyframes cdfour-xAxis {
+  100% {
+        -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes cdfour-xAxis {
+  100% {
+        -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+    animation-fill-mode: forwards;
+  }
+}
+
+
+

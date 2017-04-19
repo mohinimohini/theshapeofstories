@@ -1,0 +1,94 @@
+.storyTitle2{
+  font-family: 'Berkshire Swash', cursive;
+  font-size:7em;
+  margin-left:0%;
+  margin-top:10%;
+  text-align: center;
+  z-index: -1;
+}
+
+
+#heart {
+    position: relative;
+    margin-left: 51.6%;
+    margin-top: -8%;
+    width: 20px;
+    height: 18px;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 10px;
+    height: 16px;
+      background:black;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 41;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+
+#play{
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid red;
+  border-bottom: 50px solid transparent;
+}
+
+
+.bggET {
+  font-family:"Josefin Slab", serif;
+  font-weight:700;
+  font-size:8em;
+  color:#FF22DC;
+
+  margin-left:24%;
+  margin-top:-40%;
+}
+
+#bggEndImage {
+width:100%;
+  z-index:-1;
+}
+
+
+#bggSUBTITLE {
+  font-family:"Josefin Slab", serif;
+  font-weight:400;
+  font-size:2em;
+  color:#FFFADC;
+  position:absolute;
+  margin-left:48%;
+  margin-top:-8%;
+}
+
+#bgg3 {
+  top:70;
+  color:black;
+}
+

@@ -1,0 +1,57 @@
+#story{
+ -webkit-animation: backgroundRise 5s;
+    animation: backgroundRise 5s;
+       animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes backgroundRise {
+    from {background-color: coral;}
+    to {background-color: #FFFADC;}
+}
+
+@keyframes backgroundRise {
+    from {background-color: coral;}
+    to {background-color: #FFFADC;}
+
+}
+
+#sun{
+width:142px;
+  height:142px;
+  margin-left: 15%;
+
+  -moz-border-radius: 70px; 
+  -webkit-border-radius: 70px; 
+  border-radius: 70px;
+    background: crimson;
+    position: relative;
+    -webkit-animation: sunRise 5s;
+    animation: sunRise 5s;
+       animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes sunRise {
+    from {bottom:-400px;}
+    to {bottom: -1px;}
+}
+
+@keyframes sunRise {
+    from {bottom:-400px;}
+    to {bottom: -1px;}
+
+}
+
+
+#land{
+  background-color: black;
+  width:100%;
+  height:37%;
+  margin-top: 20%;
+position: absolute;
+z-index: 5;
+}

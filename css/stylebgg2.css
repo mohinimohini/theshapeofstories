@@ -1,0 +1,156 @@
+ /**
+ #story{
+  background-color: lightsalmon;
+  -webkit-animation: skyRise 5s;
+    animation: skyRise 5s;
+       animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+/*@-webkit-keyframes skyRise {
+    from {background-color:tomato;}
+    to {background-color:lightsalmon;}
+}
+
+@keyframes skyRise {
+    from {background-color:tomato;}
+    to {background-color:lightsalmon;}
+
+}
+
+*/
+
+}
+
+.storyTitle2{
+  font-family: 'Berkshire Swash', cursive;
+  font-size:7em;
+  margin-left:0%;
+  margin-top:10%;
+  text-align: center;
+  z-index: -1;
+}
+
+
+
+#heart {
+    position: relative;
+    margin-left: 51.6%;
+    margin-top: -8%;
+    width: 20px;
+    height: 18px;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 10px;
+    height: 16px;
+      background:black;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 41;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+
+#play{
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid red;
+  border-bottom: 50px solid transparent;
+}
+
+
+.bggET {
+  font-family:"Josefin Slab", serif;
+  font-weight:700;
+  font-size:8em;
+  color:black;
+
+  margin-left:22%;
+  margin-top:-3%;
+}
+
+#bggEndImage {
+width:40%;
+  z-index:-1;
+  margin-left:30%;
+  margin-top: 4%;
+}
+
+
+#bggSUBTITLE {
+  font-family:"Josefin Slab", serif;
+  font-weight:400;
+  font-size:2em;
+  color:black;
+  position:absolute;
+  margin-left:45.8%;
+  margin-top:-8%;
+}
+
+#bgg3 {
+  top:70;
+  color:white;
+}
+
+#sun{
+width:142px;
+  height:142px;
+  margin-left: 17%;
+  -moz-border-radius: 70px; 
+  -webkit-border-radius: 70px; 
+  border-radius: 70px;
+    background: gold;
+    position: relative;
+    -webkit-animation: sunRise 5s;
+    animation: sunRise 5s;
+       animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes sunRise {
+    from {bottom:-500px;}
+    to {bottom: -1px;}
+}
+
+@keyframes sunRise {
+    from {bottom:-500px;}
+    to {bottom: -1px;}
+
+}
+
+
+#land{
+  background-color: black;
+  width:100%;
+  height:37%;
+  margin-top:-13.3%;
+}

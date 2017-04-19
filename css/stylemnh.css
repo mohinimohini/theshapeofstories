@@ -1,0 +1,94 @@
+
+
+.axisButton{
+  margin-left:5%;
+  margin-top:22%;
+  width:12px;
+  height:12px;
+  background:#FFFADC;
+  border-style: solid;
+  border-width: 2px;
+  position:absolute;
+  
+}
+
+.storyTitle1{
+  font-family: 'Ranga', cursive;
+  font-size:7em;
+  margin-left:36%;
+  margin-top:5%;
+}
+
+
+.axisButton:hover{
+  background-color: black;
+}
+
+
+
+#mnhSubtitles{
+  font-family:'Josefin Sans', sans-serif;
+  font-size:1.3em;
+  margin-left:0%;
+  margin-top: -8%;
+  text-align: center;
+}
+
+#mnhET{
+  font-family:'Abril Fatface', cursive;
+  font-size:7em;
+  margin-left:44.5%;
+  margin-top: 18%;
+
+}
+
+
+.axisLine{
+  height:100%;
+  width:4px;
+  margin-left:5%;
+  background-color:black;
+  z-index: -1;
+  position:absolute;
+  bottom:0;
+}
+
+
+#mnh2{
+  margin-left:66%;
+  margin-top:-11.3%;
+}
+
+#mnh{
+  margin-top:8%;
+  font-size:1.5em;
+  width:42%;
+  margin-left: 29%;
+
+}
+
+#mnh0{
+  margin-top:10%;
+  font-size:1.5em;
+
+}
+
+#mnhfwdButt{
+  margin-left:13%;
+  font-size:1.5em;
+
+}
+
+#mnh1{
+   margin-top:12%;
+margin-left: 8%;
+    display:inline-block;
+    position:absolute;
+}
+
+#mnh2{
+   margin-top:22%;
+margin-left: 38%;
+    display:inline-block;
+    position:absolute;
+}
