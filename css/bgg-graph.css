@@ -1,0 +1,190 @@
+
+
+#mihGraphText {
+  top:370;
+  margin-left:27%;
+  text-align: center;
+  color:black;
+}
+
+.demo-dot {
+  -webkit-animation: bgg-a-xAxis 5.5s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
+  animation: bgg-a-xAxis 5.5s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
+  animation-fill-mode: forwards;
+}
+
+.demo-dot::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-top:16.6%;
+  background-color: black;
+  -webkit-animation: bgg-a-yAxis 3.5s 1 cubic-bezier(.25,.1,.25,1);
+  animation: bgg-a-yAxis 3.5s 1 cubic-bezier(.25,.1,.25,1);
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes bgg-a-yAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    -webkit-transform: translateY(-230px);
+    transform: translateY(-230px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes bgg-a-yAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    -webkit-transform: translateY(-230px);
+    transform: translateY(-230px);
+    animation-fill-mode: forwards;
+  }
+}
+
+
+@-webkit-keyframes bgg-a-xAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    -webkit-transform: translateX(290px);
+    transform: translateX(290px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes bgg-a-xAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    -webkit-transform: translateX(290px);
+    transform: translateX(290px);
+    animation-fill-mode: forwards;
+  }
+}
+
+
+.demo-dot2 {
+   -webkit-animation: bgg-b-xAxis 3s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
+  animation: bgg-b-xAxis 3s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
+  animation-fill-mode: forwards;
+}
+
+.demo-dot2::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-top:5.65%;
+  margin-left: 42.1%;
+  border-radius: 20px;
+  background-color: black;
+  -webkit-animation: bgg-b-yAxis 2s 1 cubic-bezier(.25,.1,.25,1);
+  animation: bgg-b-yAxis 2s 1 cubic-bezier(.25,.1,.25,1);
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes bgg-b-xAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0,0,.58,1);
+    animation-timing-function: cubic-bezier(0,0,.58,1);
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes bgg-b-xAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0,0,.58,1);
+    animation-timing-function: cubic-bezier(0,0,.58,1);
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@-webkit-keyframes bgg-b-yAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    -webkit-transform: translateY(300px);
+    transform: translateY(300px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes bgg-b-yAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    -webkit-transform: translateY(300px);
+    transform: translateY(300px);
+    animation-fill-mode: forwards;
+  }
+}
+
+.demo-dot3 {
+   -webkit-animation: bgg-c-xAxis 3s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
+  animation: bgg-c-xAxis 3s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
+  animation-fill-mode: forwards;
+  }
+
+.demo-dot3::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-top:24.4%;
+  margin-left: 60.1%;
+  border-radius: 20px;
+  background-color: black;
+  -webkit-animation: bgg-c-yAxis 2s 1 cubic-bezier(.25,.1,.25,1);
+  animation: bgg-c-yAxis 2s 1 cubic-bezier(.25,.1,.25,1);
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes bgg-c-xAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0,0,.58,1);
+    animation-timing-function: cubic-bezier(0,0,.58,1);
+    -webkit-transform: translateX(240px);
+    transform: translateX(240px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes bgg-c-xAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0,0,.58,1);
+    animation-timing-function: cubic-bezier(0,0,.58,1);
+    -webkit-transform: translateX(240px);
+    transform: translateX(240px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@-webkit-keyframes bgg-c-yAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    -webkit-transform: translateY(-300px);
+    transform: translateY(-300px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes bgg-c-yAxis {
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    -webkit-transform: translateY(-300px);
+    transform: translateY(-300px);
+    animation-fill-mode: forwards;
+  }
+}
