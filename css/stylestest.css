@@ -1,0 +1,92 @@
+.twoaxes{
+	margin-top:4.5%;
+	margin-left: 15%;
+	height: 500px;
+}
+
+#axes{
+	margin-top: 2.8%;
+	position: absolute;
+}
+
+.axispoints{
+	position:absolute;
+	height: 665px;
+	width:1200px;
+}
+
+.axisaxis3{
+  width:3px;
+  height:65%;
+  background-color: black;
+  margin-left: 1.25%;
+  display:inline-block;
+  position:fixed;
+}
+
+.axisaxis4{
+  width:61.3%;
+  height:3px;
+  background-color: black;
+  margin-top:14.5%;
+  margin-left: 1.25%;
+  display:inline-block;
+  position:fixed;
+}
+
+#gffwb2{
+	position: absolute;
+
+} 
+
+#iffwb2{
+bottom:0;  position: absolute;
+}
+
+
+#bfwb2{
+margin-top: 25.3%;
+position:absolute;
+
+}
+
+#efwb2{
+margin-top: 25.3%;
+margin-left: 100%;
+position:absolute;
+}
+
+
+
+#gfsb2{
+margin-top: 3.5%;
+margin-left: 1.5%;
+position: absolute;
+} 
+
+#ifsb2{
+bottom:40;  
+position: absolute;
+margin-left: 1.5%;
+}
+
+
+#bsb2{
+margin-top: 27.2%;
+margin-left: 1.5%;
+position:absolute;
+}
+
+#esb2{
+margin-top: 27.2%;
+margin-left: 100%;
+position:absolute;
+}
+
+.graphText3{
+  font-size:2em;
+  margin-left: 18%;
+  margin-top: 14%;
+  line-height:1.1;
+  position: absolute;
+}

@@ -1,0 +1,116 @@
+/*Illustration*/
+
+#table{
+width: 100%;
+    height: 13%;
+    bottom: 0;
+    /* margin-left: 25%; */
+    /* margin-right: 25%; */
+    position: relative;
+    background: black;
+}
+
+#laptop{
+    width: 22%;
+    height: 20%;
+    margin-left: 48%;
+    margin-top: -25%;
+    position: relative;
+    background: #FFFADC;
+    border-style: double;
+    border-width: 12px;
+}
+
+#cpu{
+    width: 10%;
+    height: 31%;
+    margin-left: 76%;
+    margin-top: -22.5%;
+    position: relative;
+    background: #FFFADC;
+    border-style: solid;
+    border-width: 4px;
+}
+
+#story12{
+      height: 500px;
+    width: 700px;
+    background: #FFFADC;
+    margin-top: 25%;
+    margin-left: 27%;
+    margin-bottom: 10%;
+    padding-bottom: 20%;
+    /* height: 50%; */
+    min-width: 600px;
+}
+
+.cpubutton{
+  width:100%;
+  height:3%;
+  margin-top: 10px;
+  background:black;
+
+}
+
+#laptopMessage{
+    font-family: 'Helvetica';
+    font-size: 3em;
+    margin-top: -15%;
+    margin-left: 45%;
+    width: 20%;
+    color: black;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 0.5s;
+    animation-name: example;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {color: black;}
+  to {color:#FFFADC;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {color: black;}
+  to {color:#FFFADC;}
+}
+
+
+#windowFrame2{
+    width: 36%;
+    height: 32%;
+    margin-top: -41%;
+    margin-left: 0%;
+    position: relative;
+    display: inline-block;
+    background: #FFFADC;
+    border-style: solid;
+    border-width: 4px;
+}
+
+
+#windowFrame{
+    width: 92%;
+    height: 87%;
+    margin-top: 4%;
+    margin-left: 4%;
+    position: relative;
+    display: inline-block;
+    background: black;
+}
+
+/*
+#tsos05{
+  margin-top: 10%;
+}
+*/
+
+
+
+
+
+
+
