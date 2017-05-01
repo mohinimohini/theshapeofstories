@@ -14,14 +14,14 @@
 .demo-dot::after {
   content: '';
   display: block;
-  width:18px;
-  height:18px;
+width:48px;
+  height:48px;
   background:#FFFADC;
   border-style: solid;
-  border-width: 4px;
+  border-width: 3px;
   margin-top:14%;
   margin-left: 5%;
-  border-radius: 20px;
+  border-radius: 48px;
   -webkit-animation: yAxis 5s 1 cubic-bezier(0.3, 0.27, 0.07, 1.64);
   animation: yAxis 5s 1 cubic-bezier(0.3, 0.27, 0.07, 1.64);
   animation-fill-mode: forwards;
@@ -76,8 +76,8 @@
   100% {
     -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
     animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
-    -webkit-transform: translateX(1290px);
-    transform: translateX(1290px);
+    -webkit-transform: translateX(890px);
+    transform: translateX(890px);
     animation-fill-mode: forwards;
   }
 }
@@ -86,8 +86,8 @@
   100% {
     -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
     animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
-    -webkit-transform: translateX(1290px);
-    transform: translateX(1290px);
+    -webkit-transform: translateX(890px);
+    transform: translateX(890px);
     animation-fill-mode: forwards;
   }
 }

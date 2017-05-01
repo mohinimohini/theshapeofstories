@@ -13,18 +13,24 @@
 
 
 
+#cd00{
+  content: '';
+  display: block;
+
+  margin-top:44%;
+  position:absolute;
+
+}
+
 
 #cd01{
   content: '';
   display: block;
-  width: 20px;
-  height: 20px;
-  margin-top:29%;
+
+  margin-top:44%;
   position:absolute;
-  border-radius: 20px;
-  background-color: black;
-  -webkit-animation: cinderellaOne 3s 1;
-  animation: cinderellaOne 3s 1;
+  -webkit-animation: cinderellaOne 1.5s 1;
+  animation: cinderellaOne 1.5s 1;
   animation-fill-mode: forwards;
 }
 
@@ -41,12 +47,19 @@
 }
 
 
+#cd01a{
+  content: '';
+  display: block;
+margin-left: 15%;
+  margin-top:44%;
+  position:absolute;
 
+}
 
 
 #cd02 {
     margin-left: 15%;
-  margin-top:29%;
+  margin-top:44%;
   -webkit-animation: cdtwo-xAxis 5.5s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
   animation: cdtwo-xAxis 5.5s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
   animation-fill-mode: forwards;
@@ -56,10 +69,12 @@
 #cd02::after {
   content: '';
   display: block;
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
-  background-color: black;
+  width:48px;
+    border-radius: 48px;
+  height:48px;
+  background:#FFFADC;
+  border-style: solid;
+  border-width: 3px;
   -webkit-animation: cdtwo-yAxis 3.5s 1 cubic-bezier(.25,.1,.25,1);
   animation: cdtwo-yAxis 3.5s 1 cubic-bezier(.25,.1,.25,1);
   animation-fill-mode: forwards;
@@ -90,8 +105,8 @@
   100% {
     -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
     animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
-    -webkit-transform: translateX(550px);
-    transform: translateX(550px);
+    -webkit-transform: translateX(350px);
+    transform: translateX(350px);
     animation-fill-mode: forwards;
   }
 }
@@ -100,8 +115,8 @@
   100% {
     -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
     animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
-    -webkit-transform: translateX(550px);
-    transform: translateX(550px);
+    -webkit-transform: translateX(350px);
+    transform: translateX(350px);
     animation-fill-mode: forwards;
   }
 }
@@ -132,10 +147,12 @@
 #cd03::after {
   content: '';
   display: block;
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
-  background-color: black;
+   width:48px;
+    border-radius: 48px;
+  height:48px;
+  background:#FFFADC;
+  border-style: solid;
+  border-width: 3px;
   -webkit-animation: cdthree-yAxis 8.5s 1;
   animation: cdthree-yAxis 8.5s 1;
   animation-fill-mode: forwards;
@@ -143,16 +160,16 @@
 
 @-webkit-keyframes cdthree-yAxis {
   100% {
-    -webkit-transform: translateY(400px);
-    transform: translateY(400px);
+    -webkit-transform: translateY(370px);
+    transform: translateY(370px);
     animation-fill-mode: forwards;
   }
 }
 
 @keyframes cdthree-yAxis {
   100% {
-    -webkit-transform: translateY(400px);
-    transform: translateY(400px);
+    -webkit-transform: translateY(370px);
+    transform: translateY(370px);
     animation-fill-mode: forwards;
   }
 }
@@ -160,32 +177,32 @@
 
 @-webkit-keyframes cdthree-xAxis {
   100% {
-    -webkit-transform: translateX(90px);
-    transform: translateX(90px);
+    -webkit-transform: translateX(95px);
+    transform: translateX(95px);
     animation-fill-mode: forwards;
   }
 }
 
 @keyframes cdthree-xAxis {
   100% {
-    -webkit-transform: translateX(90px);
-    transform: translateX(90px);
+    -webkit-transform: translateX(95px);
+    transform: translateX(95px);
     animation-fill-mode: forwards;
   }
 }
 
 
 #cd04 {
-    margin-left: 55%;
-      margin-top:29%;
+    margin-left: 59%;
+      margin-top:41%;
   position:absolute;
 
 }
 
 
 #cd0x {
-    margin-left: 55%;
-      margin-top:29%;
+    margin-left: 57%;
+      margin-top:37%;
 
   -webkit-animation: cdfour-xAxis 3.5s 1;
   animation: cdfour-xAxis 3.5s 1;
@@ -197,10 +214,12 @@
 #cd0x::after {
   content: '';
   display: block;
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
-  background-color: black;
+  width:48px;
+    border-radius: 48px;
+  height:48px;
+  background:#FFFADC;
+  border-style: solid;
+  border-width: 3px;
   -webkit-animation: cdfour-yAxis 3.5s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
   animation: cdfour-yAxis 3.5s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
   animation-fill-mode: forwards;
@@ -211,8 +230,8 @@
 
     -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
     animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
-    -webkit-transform: translateY(-600px);
-    transform: translateY(-600px);
+    -webkit-transform: translateY(-500px);
+    transform: translateY(-500px);
     animation-fill-mode: forwards;
   }
 }
@@ -222,8 +241,8 @@
 
     -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
     animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
-    -webkit-transform: translateY(-600px);
-    transform: translateY(-600px);
+    -webkit-transform: translateY(-500px);
+    transform: translateY(-500px);
     animation-fill-mode: forwards;
   }
 }
@@ -233,8 +252,8 @@
   100% {
         -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
     animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
-    -webkit-transform: translateX(300px);
-    transform: translateX(300px);
+    -webkit-transform: translateX(400px);
+    transform: translateX(400px);
     animation-fill-mode: forwards;
   }
 }
@@ -243,8 +262,8 @@
   100% {
         -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
     animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
-    -webkit-transform: translateX(300px);
-    transform: translateX(300px);
+    -webkit-transform: translateX(400px);
+    transform: translateX(400px);
     animation-fill-mode: forwards;
   }
 }
@@ -546,7 +565,7 @@
 
 
 .cinders{
-  margin-left:15%;
+  margin:auto;
 }
 
 .caxisaxisa{
@@ -723,6 +742,7 @@
 
 
 #cdSubtitles1 {
+  font-weight: 400;
   width:9%;
   margin-left: 30.5%;
   margin-top: 9.5%;
@@ -730,6 +750,8 @@
 }
 
 #cdSubtitles2 {
+    font-weight: 400;
+
   width:11%;
   margin-left: 30.5%;
   margin-top: 19%;
@@ -738,8 +760,8 @@
 }
 
 #ct02{
-  margin-left: 46.9%;
-  margin-top: 24.3%;
+  margin-left: 45.8%;
+  margin-top: 23%;
   position: absolute;
 }
 
@@ -814,3 +836,106 @@ width:50%;
 height:40%;
 margin-top:-5%;
 }
+
+
+.dialogbox{
+
+ border-color: black;
+ border-style: solid;
+    border-width: 4px;
+    margin:auto;
+}
+
+#okayButt{
+  width: 110px;
+  height: 50px;
+  margin-top: 7%;
+}
+
+#parentButt{
+    width:600px;
+  height:250px;
+      margin-top: 15%;
+
+}
+
+.dialogtext{
+   font-family: 'Josefin Slab';
+   width:100%;
+   text-align: center;
+   color: black;
+}
+
+#okayText{
+   font-size: 2em;
+   margin-top: -17%;
+   font-weight: 700;
+
+}
+
+#confirmText{
+   font-size: 2em;
+   margin-top: 2%;
+   font-weight: 700;
+   width:80%;
+   margin:auto;
+
+}
+
+#topBar{
+  width: 100%;
+  background-color: black;
+  height:10%;
+  top:0;
+}
+
+.cindEpiButt {
+  font-size:2em;
+  position: absolute;
+  font-weight: 700;
+}
+
+#cindEpiButt02 {
+  margin-top: 8%;
+  margin-left: 15%;
+  width:44%; 
+}
+
+.bggEpiButt {
+  font-size:2em;
+  position: absolute;
+  margin-top: 18%;
+  text-align: center;
+  margin-left: 18%;
+  font-weight: 700;
+}
+
+#cm{
+    margin-top: 22%;
+  margin-left: 5%;
+}
+
+#cma{
+    margin-top: 18%;
+  margin-left: 15%;
+}
+
+#cmb{
+    margin-top: 19%;
+  margin-left: 15%;
+}
+
+
+#cmc{
+    margin-top: 19%;
+  margin-left: 15%;
+}
+/*
+   <div><p class="graphText" id="cm2">
+        
+      </p></div>
+
+
+      <a href="cinderellaMain3.html"><div class="" id="cd02"></div></a>
+
+*/

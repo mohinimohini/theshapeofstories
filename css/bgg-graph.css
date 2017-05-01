@@ -16,12 +16,14 @@
 .demo-dot::after {
   content: '';
   display: block;
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
+width:48px;
+  height:48px;
+  background:#FFFADC;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 48px;
   margin-left: 5%;
-  margin-top:16.6%;
-  background-color: black;
+  margin-top:20.6%;
   -webkit-animation: bgg-a-yAxis 3.5s 1 cubic-bezier(.25,.1,.25,1);
   animation: bgg-a-yAxis 3.5s 1 cubic-bezier(.25,.1,.25,1);
   animation-fill-mode: forwards;
@@ -31,8 +33,8 @@
   100% {
     -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
     animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
-    -webkit-transform: translateY(-230px);
-    transform: translateY(-230px);
+    -webkit-transform: translateY(-170px);
+    transform: translateY(-170px);
     animation-fill-mode: forwards;
   }
 }
@@ -41,8 +43,8 @@
   100% {
     -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
     animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
-    -webkit-transform: translateY(-230px);
-    transform: translateY(-230px);
+    -webkit-transform: translateY(-170px);
+    transform: translateY(-170px);
     animation-fill-mode: forwards;
   }
 }
@@ -78,12 +80,17 @@
 .demo-dot2::after {
   content: '';
   display: block;
-  width: 20px;
-  height: 20px;
+  
   margin-top:5.65%;
   margin-left: 42.1%;
-  border-radius: 20px;
-  background-color: black;
+
+width:48px;
+  height:48px;
+  background:#FFFADC;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 48px;
+
   -webkit-animation: bgg-b-yAxis 2s 1 cubic-bezier(.25,.1,.25,1);
   animation: bgg-b-yAxis 2s 1 cubic-bezier(.25,.1,.25,1);
   animation-fill-mode: forwards;
@@ -138,12 +145,14 @@
 .demo-dot3::after {
   content: '';
   display: block;
-  width: 20px;
-  height: 20px;
-  margin-top:24.4%;
-  margin-left: 60.1%;
-  border-radius: 20px;
-  background-color: black;
+  margin-top:34.4%;
+  margin-left: 70.1%;
+width:48px;
+  height:48px;
+  background:#FFFADC;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 48px;
   -webkit-animation: bgg-c-yAxis 2s 1 cubic-bezier(.25,.1,.25,1);
   animation: bgg-c-yAxis 2s 1 cubic-bezier(.25,.1,.25,1);
   animation-fill-mode: forwards;
@@ -187,4 +196,14 @@
     transform: translateY(-300px);
     animation-fill-mode: forwards;
   }
+}
+
+
+.bggEpiButt {
+  font-size:2em;
+  position: absolute;
+  margin-top: 18%;
+  text-align: center;
+  margin-left: 18%;
+  font-weight: 700;
 }

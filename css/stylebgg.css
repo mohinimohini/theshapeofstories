@@ -2,7 +2,8 @@
   font-family: 'Berkshire Swash', cursive;
   font-size:7em;
   margin-left:0%;
-  margin-top:10%;
+  margin-top:-10%;
+  line-height: 1;
   text-align: center;
   z-index: -1;
 }
@@ -39,3 +40,6 @@ width:100%;
   color:black;
 }
 
+#story112{
+  margin-top: -10.6%
+}
