@@ -100,6 +100,46 @@ text-align: left;
 position: absolute;
 }
 
+#tsos02{
+font-size: 2em;
+
+    line-height: 1.2;
+margin-top: -15%;
+margin-left: 0%;
+text-align: left;
+position: absolute;
+}
+
+
+#tsos03{
+font-size: 4em;
+ line-height: 1.2;
+margin-top: -10%;
+margin-left:15%;
+text-align: center;
+position: absolute;
+}
+
+
+#tsos04{
+font-size: 2em;
+ line-height: 1.2;
+margin-left:9%;
+margin-top: -3%;
+text-align: center;
+position: absolute;
+}
+
+#tsos05{
+font-size: 2em;
+ line-height: 1.2;
+margin-left:10.5%;
+margin-top:0%;
+text-align: center;
+position: absolute;
+}
+
+
 .credits {
   bottom: 2px;
   position:fixed;
@@ -818,4 +858,22 @@ font-size: 1.5em;    font-family: 'Josefin Slab';
   margin-top: 10.2%;
   z-index: 500;
   position: absolute;
+}
+
+#bggEnd{
+  margin-left: 76.5%;
+  margin-top: 10.2%;
+  z-index: 500;
+  position: absolute;
+}
+
+#introfwd{
+  margin-top: 6%;
+    margin-left: 48%;
+
+}
+
+#intros{
+  margin-top: -5%;
+  margin-left: 51%;
 }
