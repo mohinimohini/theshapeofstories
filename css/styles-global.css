@@ -6,7 +6,7 @@
 /*Global styles*/
 
 html, body {
-  margin: 0;
+  margin-left: 30;
   font-family: 'Josefin Slab', serif;
   font-size:1em;
   background:#FFFADC;
@@ -66,7 +66,7 @@ h3 {
   height:auto;
   width:auto;
   background:#FFFADC;
-  margin-top:30px;
+  margin-top:70px;
   margin-bottom:10%;
   padding-bottom:40px;
   height:50%;
@@ -76,7 +76,7 @@ h3 {
   height:auto;
   width:auto;
   background:#FFFADC;
-  margin-top:25%;
+  margin-top:30%;
   margin-bottom:10%;
   padding-bottom:20%;
   height:50%;
@@ -815,7 +815,7 @@ font-size: 1.5em;    font-family: 'Josefin Slab';
 #middleCap{
   font-size:2em;
   position: absolute;
-  margin-top: 15%;
+  margin-top: 18%;
 }
 
 #BEAxisCap{

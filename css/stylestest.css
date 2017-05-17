@@ -1,5 +1,5 @@
 .twoaxes{
-	margin-top:4.5%;
+	margin-top:8%;
 	margin-left: 15%;
 	height: 500px;
 }
@@ -29,7 +29,7 @@
   width:61.3%;
   height:3px;
   background-color: black;
-  margin-top:14.5%;
+  margin-top:17.5%;
   margin-left: 1.25%;
   display:inline-block;
   position:fixed;
@@ -41,18 +41,18 @@
 } 
 
 #iffwb2{
-bottom:0;  position: absolute;
+bottom:-100;  position: absolute;
 }
 
 
 #bfwb2{
-margin-top: 25.3%;
+margin-top: 30.3%;
 position:absolute;
 
 }
 
 #efwb2{
-margin-top: 25.3%;
+margin-top: 30.3%;
 margin-left: 100%;
 position:absolute;
 }
@@ -75,20 +75,20 @@ position: absolute;
 } 
 
 #ifsb2{
-bottom:40;  
+bottom:-90;  
 position: absolute;
 margin-left: 1.5%;
 }
 
 
 #bsb2{
-margin-top: 27.2%;
+margin-top: 32%;
 margin-left: 1.5%;
 position:absolute;
 }
 
 #esb2{
-margin-top: 27.2%;
+margin-top: 32%;
 margin-left: 100%;
 position:absolute;
 }
@@ -130,7 +130,7 @@ position:absolute;
     width: 61.2%;
     height: 3px;
     background-color: black;
-    margin-top: 14.7%;
+    margin-top: 20.7%;
     margin-left: 1.5%;
     display: inline-block;
     position: fixed;
